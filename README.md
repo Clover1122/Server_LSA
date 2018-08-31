@@ -4,7 +4,8 @@ Technical Guide
 
 This project consists of 3 components; the Question-Setting Application, the location-based Quiz Application, and the Server. The corresponding repositories are Queastion_LSA, Quiz_LSA, Server_LSA respectively. Besides, this project has also used PostgreSQL/PGAdmin4 to storing data in this project.
 Some details about these three repositories will be introduced in the following.
-Web Application: Question-Setting App
+
+1 Web Application: Question-Setting App
 The Queastion_LSA is displayed in a web browser, accessible to the creators/administrators of the project.
 Installation Guide
 o	Install the “Queastion_LSA” repository by typing: git clone https://github.com/Clover1122/Queastion-LSA.git
@@ -16,7 +17,8 @@ Technical Information
 This app has been inspecting using the following browsers:
 o	Google Chrome v66.0.3359.139 (Official Build) (64-bit)
 o	Microsoft Edge v41.16299.371.0
-Mobile Application: Location-Based Quiz app
+
+2 Mobile Application: Location-Based Quiz app
 This quiz application is created specifically for android mobile devices, and the users are required to connect to the UCL VPN network.
 Installation Guide
 o	Install the 'Quiz_LSA' repository by going on terminal and typing: git clone https://github.com/Clover/Quiz_LSA.git
@@ -29,7 +31,8 @@ This app has been operated and inspected using the following browsers:
 o	Google Chrome v66.0.3359.139 (Official Build) (64-bit)
 o	Microsoft Edge v41.16299.371.0
 And the mobile operating system mentioned above: Android Marshmallow 6.0.1
-NodeJS Server: httpServer
+
+3 NodeJS Server: httpServer
 The Server_LSA repository consists of server-side code to process, upload/download and store data in both the web and mobile applications. It is a HTTP server used in both Quiz App and Question Setting App. GET and POST commands are used to download and upload the data in Quiz App and Question Setting App.
 Installation Guide
 •	Install the Server repository by going on terminal and typing: git clone https://github.com/Clover1122/Server_LSA.git
